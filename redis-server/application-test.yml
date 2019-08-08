@@ -4,7 +4,7 @@ spring:
 
 #Redis配置
   redis:
-    host: 172.16.2.224
+    host: 172.16.3.120
     port: 7001
     name: master
     password: OlwO5eTdvS

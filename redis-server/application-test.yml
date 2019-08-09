@@ -4,10 +4,9 @@ spring:
 
 #Redis配置
   redis:
-    host: 172.16.2.224
-    port: 7001
-    name: master
-    password: OlwO5eTdvS
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
     database: 0 # Redis数据库索引（默认为0）
     pool:
       max-active: 20 # 连接池最大连接数（使用负值表示没有限制）
